@@ -6,8 +6,9 @@ import Person as PersonClass
 
 
 class Test(unittest.TestCase):
-    """
+    """ 
     The basic class that inherits unittest.TestCase
+    Set it up with github Workflow
     """
     person = PersonClass.Person()  # instantiate the Person Class
     user_id = []  # variable that stores obtained user_id
