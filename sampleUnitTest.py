@@ -8,9 +8,9 @@ class Testing(unittest.TestCase):
         self.assertEqual(a, b)
 
     def test_boolean(self):
-        a = True
-        b = True
-        self.assertEqual(a, b)
+        file1 = True
+        file2 = True
+        self.assertEqual(file1, file2)
 
 if __name__ == '__main__':
     unittest.main()
